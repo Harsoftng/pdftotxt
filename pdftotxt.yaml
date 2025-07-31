@@ -8,7 +8,7 @@ Resources:
       Handler: lambda_function.lambda_handler
       Runtime: python3.12
       Code:
-        S3Bucket: s3://pgpcc-harsoftng-artifacts/pdftotxt-build-artifacts.zip
+        ZipFile: s3://pgpcc-harsoftng-artifacts/pdftotxt-build-artifacts.zip
       Description: ''
       MemorySize: 512
       Timeout: 900
